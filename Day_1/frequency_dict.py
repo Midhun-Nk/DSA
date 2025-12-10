@@ -15,7 +15,7 @@ print(freqOccerence(input))
 def OptimalFreq(list):
     freq = {}
     for num in list:
-        freq[list[num]] = freq.get(list[num],0)+1
+        freq[num] = freq.get(num,0)+1
 
     
     
